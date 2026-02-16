@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RWA Platform</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <h1>RWA Tokenization Platform</h1>
+
+  <button id="connect">Connect Wallet</button>
+
+  <h3>Investor Actions</h3>
+  <button onclick="requestSubscription()">Request Subscription</button>
+  <button onclick="transfer()">Transfer Tokens</button>
+
+  <h3>Corporate Actions</h3>
+  <button onclick="claimDividend()">Claim Dividend</button>
+
+  <script src="https://cdn.jsdelivr.net/npm/ethers@6.10.0/dist/ethers.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
